@@ -1,19 +1,21 @@
-body{
-background-color: #ced6f0;  
-display: flex;
-align-items: center;
-justify-content: center;
-font-family: Roboto, sans-serif;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ced6f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
 }
 
-.main-card{
+.main-card {
     background-color: #ffffff;
-    margin: 15vh;
     padding: 6vh;
     border-radius: 20px;
-    width:70%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} 
+    width: 76%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
 .card-father{
     display: flex;
     flex-direction: row;
@@ -27,9 +29,10 @@ head{
 }
 
 h1 {
+    font-family: "Anek Kannada", sans-serif;
     text-align: center;
     color: #010d49;
-    font-weight: 900;
+    font-weight: 800;
     margin: 10px;
     padding: 0px;
 }
